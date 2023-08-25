@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#e1533c",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      type="
+    text/css"
+      href="./styles/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Animal Shelter</title>
+    <link rel="shortcut icon" href="icons/calculator.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="navBar h-[6rem] flex flex-row" id="nav-bar">
+      <div class="logo-main flex flex-row gap-2">
+        <div class="logo-container">
+          <img src="/images/logo.png" alt="logo" />
+        </div>
+        <a href="#" class="logo mt-[0.5rem]"
+          >Animal
+          <p class="leading-4">​Shelter</p></a
+        >
+      </div>
+
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Adoptions</a></li>
+        <li><a href="#">Volunteer</a></li>
+        <li><a href="#">Donate</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </section>
+    <section class="hero bg-white flex flex-row pt-[10rem]" id="hero">
+      <div class="cat-img-container w-[50%] bg-slate-600">
+        <img
+          class="slides scale-x-110 scale-y-110"
+          src="images/slideshowone.webp"
+          alt="cat-one"
+        />
+        <img
+          class="slides scale-x-110 scale-y-110"
+          src="images/slideshowtwo.webp"
+          alt="cat-one"
+        />
+      </div>
+      <div
+        class="donate-container w-[50%] bg-slate-300 flex flex-col justify-center items-center mx-auto"
+      >
+        <span
+          >..............................................................................</span
+        >
+        <span>
+          ..............................................................................
+        </span>
+        <h1 class="text-7xl font-bold">SAVE A PET</h1>
+        <h2 class="text-[2.5rem] font-bold">DONATE NOW!​</h2>
+
+        <div
+          class="internal-for-arrow flex flex-row justify-center items-center mx-auto pl-[5.5rem]"
+        >
+          <div class="first-div bg-black">
+            <span>........................</span>
+            <span>........................</span>
+          </div>
+          <div class="second-div w-[100%]">
+            <div
+              class="arrow-container-img w-[7rem] h-[7rem] bg-clifford rounded-[50%] relative"
+            >
+              <img
+                class="w-[2rem] absolute invert"
+                src="/icons/arrow.svg"
+                alt="arrow"
+              />
+            </div>
+          </div>
+          <div class="third-div bg-black">
+            <span>........................</span>
+            <span>........................</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

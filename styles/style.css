@@ -86,3 +86,9 @@ h1 {
   top: 2.2rem;
   left: 2.5rem;
 }
+.shelter-section {
+  width: 100%;
+  height: 20rem;
+  padding: 40px 16%;
+  background-color: #eae6dc;
+}

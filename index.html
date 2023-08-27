@@ -16,6 +16,7 @@
           extend: {
             colors: {
               clifford: "#e1533c",
+              onhover: "#ea8d80",
             },
           },
         },
@@ -51,7 +52,7 @@
       </div>
 
       <ul class="nav-list">
-        <li><a href="#">Home</a></li>
+        <li><a class="home" href="#">Home</a></li>
         <li><a href="#">Adoptions</a></li>
         <li><a href="#">Volunteer</a></li>
         <li><a href="#">Donate</a></li>
@@ -97,7 +98,7 @@
           </div>
           <div class="second-div w-[7.2rem]">
             <div
-              class="arrow-container-img w-[6.7rem] h-[6.7rem] bg-clifford rounded-[50%] relative cursor-pointer"
+              class="arrow-container-img w-[6.7rem] h-[6.7rem] bg-clifford rounded-[50%] relative cursor-pointer hover:bg-onhover"
             >
               <a href="#">
                 <img
@@ -122,6 +123,12 @@
     <section
       class="shelter-section flex flex-row justify-center items-center gap-10"
     >
+
+
+    
+
+
+
       <div class="volunteer-div relative">
         <h2 class="font-bold text-3xl leading-loose text-clifford">
           ​VOLUNTEER
@@ -149,9 +156,9 @@
         <br>
 <div class="movable-container flex ml-[-2.5rem]">
   <div class="slider-image-container flex gap-2">
-    <img class="" src="./images/slider_1.webp" alt="dog">
-    <img src="./images/slider_2.webp" alt="dog">
-    <img src="./images/slider_3.webp" alt="dog">
+    <img class="hover:opacity-80 cursor-pointer" src="./images/slider_1.webp" alt="dog">
+    <img class="hover:opacity-80 cursor-pointer" src="./images/slider_2.webp" alt="dog">
+    <img class="hover:opacity-80 cursor-pointer" src="./images/slider_3.webp" alt="dog">
 </div>
 </div>
 <br>
@@ -312,9 +319,9 @@
       
       <div class="movable-container mt-[2.5rem]">
         <div class="slider-image-container flex gap-2">
-          <img class="border-8 border-white" src="./images/slidercat_1.webp" alt="cat">
-          <img src="./images/slidercat_2.webp" alt="cat">
-          <img src="./images/slidercat_3.webp" alt="cat">
+          <img class="border-8 border-white hover:opacity-80 cursor-pointer" src="./images/slidercat_1.webp" alt="cat">
+          <img class="hover:opacity-80 cursor-pointer" src="./images/slidercat_2.webp" alt="cat">
+          <img class="hover:opacity-80 cursor-pointer" src="./images/slidercat_3.webp" alt="cat">
       </div>
       </div>
       <!-- <br> -->
@@ -639,23 +646,55 @@
         <p class="w-[27.2rem] text-sm font-bold text-clifford">National Adoption Event at Fisherman's Wharf - 12/12/35, 11am</p>
         <span class="w-[27.2rem] text-sm">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</span>
       </div>
+
+
+      
+
+
     </section>
-    <section class="footer-section bg-clifford h-[7rem] flex flex-row">
-      <div class="star-main flex flex-row gap-2">
-        <div class="star-container w-[100%]">
-          <img class="w-[1.3rem] invert" src="./icons/star_backup.svg" alt="star" />
+
+    
+
+
+    <section class="footer-section bg-clifford h-[7rem] flex flex-row relative">
+      <div class="star-main flex flex-row gap-2 ">
+        <div class="star-container w-[100%] ">
+          <img class="w-[1.3rem] invert absolute ml-[-2rem] mt-[-1rem]" src="./icons/star_backup.svg" alt="star" />
+
+          
         </div>
-        <a href="#" class="mt-[0.5rem] w-[35rem] text-white"
-          >© 2035 by Animal Shelter.
-          <p class="leading-4 w-[35rem]">Powered and secured by Wix</p></a
-        >
+        
+      </div>
+      <a href="#" class="mt-[0.5rem] w-[35rem] text-white"
+      >© 2035 by Animal Shelter.
+      <p class="leading-4 w-[35rem]">Powered and secured by Wix</p></a
+    >
+      <div class="footer-list flex flex-row relative">
+        <p class="">Follow us on Twitter</p>
+        <div class="twitter-container absolute left-[-16.2rem] top-[-0.2rem]">
+          <img class="cursor-pointer" src="./icons/icon_twitter.webp" alt="twitter">
+        </div>
+        <p>Follow us on facebook</p>
+        <div class="facebook-container absolute left-[-2.7rem] top-[-0.2rem]">
+          <img class="cursor-pointer" src="./icons/icon_facebook.webp" alt="facebook">
+        </div>
+       <p>Watch adoptable animals on YouTube</p>
+       <div class="youtube-container absolute left-[10rem] top-[-0.2rem]">
+        <img class="cursor-pointer" src="./icons/icon_youtube.webp" alt="YouTube">
+      </div>
       </div>
 
-      <ul class="footer-list">
-        <li><a href="#">Follow us on Twitter</a></li>
-        <li><a href="#">Follow us on facebook</a></li>
-        <li><a href="#">Watch adoptable animals on YouTube</a></li>
-      </ul>
+      <div class="ai-chat-div flex items-center p-[0.4rem] gap-2 w-[13rem] h-[3.5rem] bg-clifford fixed z-10 top-[87%] left-[85%] cursor-pointer ">
+        
+        <span class="text-lg ml-[3rem] w-[10rem] text-white">Let's Chat!</span>
+        <div class="smiley-container w-[50%] relative">
+          <img class="invert w-[50%] absolute left-[-8rem] top-[-0.9rem]" src="./icons/smiley.svg" alt="">
+        </div>
+      </div>
+
+
+
+
     </section>
     <script src="./scripts/script.js"></script>
   </body>

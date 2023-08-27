@@ -31,4 +31,4 @@ function moveImages() {
   currentImageIndex = (currentImageIndex + 1) % images.length;
 }
 
-setInterval(moveImages, 1000); // Move images every 10 seconds
+setInterval(moveImages, 1000);

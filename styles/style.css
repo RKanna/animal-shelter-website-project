@@ -93,7 +93,7 @@ h1 {
   background-color: #eae6dc;
 }
 .star-img-container {
-  top: 6.4rem;
+  top: 8.75rem;
   left: -1.5rem;
 }
 .star-container-pet {
@@ -112,4 +112,76 @@ h1 {
 .slider-image-container img {
   margin: 0 10px;
   border: 10px solid white;
+}
+.star-container-adoptDogs {
+  left: -1.7rem;
+  top: 34.8rem;
+}
+.star-container-adoptCats {
+  left: -1.7rem;
+  top: 35.3rem;
+}
+.line-div {
+  width: 100%;
+  height: auto;
+  padding: 40px 16%;
+  background-color: #eae6dc;
+}
+.event-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 16%;
+  background-color: #eae6dc;
+}
+.layout {
+  object-fit: cover;
+}
+.star-img-event {
+  top: 0.8rem;
+  left: -1.7rem;
+}
+.sp-only {
+  top: 3rem;
+  left: 5.3rem;
+}
+.p-only {
+  top: 5.2rem;
+  left: 5.8rem;
+}
+.pvalid-only {
+  top: 9.9rem;
+  left: 4.3rem;
+}
+.p-spay {
+  top: 2.5rem;
+  left: 16rem;
+}
+.p-cats {
+  top: 4rem;
+  left: 16rem;
+}
+.p-para {
+  top: 6.5rem;
+  left: 16rem;
+}
+.footer-list a {
+  color: white;
+  margin-left: 40px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 16%;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+.footer-list li {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
 }
